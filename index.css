@@ -5,9 +5,13 @@
     font-weight: bold;
     font-family: sans-serif;
 }
+
+
 body{
     background-color:white;
 }
+
+
 header{
     background-color:#0084FD;
     margin-bottom:2.5rem;
@@ -16,67 +20,126 @@ header{
 nav{
     margin:1rem 2rem;
 }
-.flex{
-    display:flex;
-}
-.flex-space-between{
-    justify-content: space-between;
-}
+
+/*This below are the logo and the favicon of the nav header*/
 
 .logo{
     width:5rem;
-}
-img{
-    object-fit: cover;
-    width:100%;
 }
 
 .fa-bars{
     font-size:1.5rem;
 }
 
-div.margin-top{
-    margin-top:1.5rem;
-}
-.flex-column{
-    flex-direction:column;
-}
+
+/*This container and this section have the same name for all the files*/
 .container{
     padding:3.5rem;
     padding-bottom:0;
-}
-h1{
-    font-size:1.2rem;
-    color:#0084FD;
-    margin-bottom:2rem;
-}
-.immagine{
-    width:18rem;
-    justify-content:center;
+    align-items: center;
+    text-align:center;
 }
 
-p{
-    line-height:1.5rem;
-    color:rgba(0, 0, 0, 0.486);
-    font-size:0.75rem;
-    padding-right:3rem;
-}
 .section{
     width:80%;
     margin:0 auto;
     border-radius:8%;
     background-color: #B5DDFF;
 }
+
+
+/*COMMON CLASSES*/
+
+h1{
+    font-size:1.2rem;
+    color:#0084FD;
+    margin-bottom:2rem;
+}
+
+h2{
+    font-size:1.4rem;
+    color:#0084FD;
+    margin-bottom:2rem;
+}
+
+
+.flex{
+    display:flex;
+}
+.flex-space-between{
+    justify-content: space-between;
+}
+.flex-column{
+    flex-direction:column;
+}
+
+
+.margin-top{
+    margin-top:1.5rem;
+}
 .margin-bottom{
     margin-bottom:1rem;
 }
+
+img{
+    object-fit: cover;
+    width:100%;
+}
+
+/*this is the img of the first section( the biggest one)*/
+
+.immagine{
+    width:18rem;
+    align-items:center;
+}
+
+/**/
+
+p{
+    line-height:1.5rem;
+    color:rgba(0, 0, 0, 0.486);
+    font-size:0.75rem;
+    margin-bottom:2rem;
+}
+
+#paragrafo-sezione-uno{
+    padding-right:3rem;
+    text-align:left;
+}
+
+/*PULSANTE APPSTORE*/
+
 .button-appstore{
     color:white;
     background-color: rgb(0, 55, 255);
-    text-align:center;
+    align-items: center;
     padding: 0.80rem;
     padding-left:5rem;
     padding-right:5rem;
     margin:0 auto;
     border-radius:45% 45%;
+}
+/**/
+/*HO APERTO UN TICKET SU QUESTO TITOLO*/
+
+
+#titolo-sezione-uno{
+    text-align:left;
+    justify-items: left;
+}
+
+/**/
+
+.fa-file-code
+{
+    font-size:5rem;
+}
+.fa-bullhorn{
+    font-size:5rem;
+}
+.fa-laptop-code{
+    font-size:5rem;
+}
+.fa-compass-drafting{
+    font-size:5rem;
 }
