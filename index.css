@@ -51,6 +51,8 @@ nav{
 /*COMMON CLASSES*/
 
 h1{
+    text-align:left;
+    width:100%;
     font-size:1.2rem;
     color:#0084FD;
     margin-bottom:2rem;
@@ -87,10 +89,12 @@ img{
 }
 
 /*this is the img of the first section( the biggest one)*/
-
-.immagine{
+.immagine img{
+    display:block;
     width:18rem;
     align-items:center;
+    margin-bottom:0;
+
 }
 
 /**/
@@ -119,15 +123,6 @@ p{
     margin:0 auto;
     border-radius:45% 45%;
 }
-/**/
-/*HO APERTO UN TICKET SU QUESTO TITOLO*/
-
-
-#titolo-sezione-uno{
-    text-align:left;
-    justify-items: left;
-}
-
 /**/
 
 .fa-file-code
