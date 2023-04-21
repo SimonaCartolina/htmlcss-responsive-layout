@@ -589,3 +589,11 @@ footer{
 .section-four .titolo-section-four{
     margin-top:2.2rem;
 }
+.section-five.float{
+    float:left;
+    width:40%;
+}
+.section-five p,
+.section-five h1{
+    width:40%;
+}
