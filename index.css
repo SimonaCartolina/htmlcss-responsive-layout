@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
+/* in questo primo main ho dato il background color al main invece che a section, dato che il background era
+bianco per tutte le sezioni, nel prossimo invece darò il background color alle sezioni dato che varia fra bianco e viola
+non troverò quindi il background color nel main .main-due*/
 
 .main-uno{
     background-color:white;
@@ -51,6 +53,8 @@ nav{
 /*COMMON CLASSES*/
 
 h1{
+
+    font-weight: bold;
     text-align:left;
     width:100%;
     font-size:1.2rem;
@@ -62,6 +66,7 @@ h2{
     font-size:1.4rem;
     color:#0084FD;
     margin-bottom:2rem;
+    font-weight: bold;
 }
 
 
@@ -101,7 +106,7 @@ img{
 
 .main-uno p{
     line-height:1.5rem;
-    color:rgba(0, 0, 0, 0.486);
+    color:rgba(0, 0, 0, 0.705);
     font-size:0.75rem;
     margin-bottom:2rem;
 }
@@ -148,8 +153,10 @@ img{
 .main-due .container{
     width:80%;
     margin:0 auto;
-    border-radius:10%;
+    border-radius:12%;
+    margin-bottom:2rem;
 }
+
 
 
 .section-one{
@@ -171,6 +178,7 @@ p{
     font-size:1.7rem;
     text-align:left;
     width:100%;
+    font-weight: bold;
 }
 
 .section-one p{
@@ -187,4 +195,56 @@ p{
 }
 .section-two .container{
     background-color: white;
+    border-radi
+}
+
+.border-radius img{
+    width:12rem;
+    height:12rem;
+    border-radius:50%;
+    margin-bottom:0.60rem;
+}
+
+.section-three{
+    background-color: white;
+    margin:0 auto;
+    margin-top:0.50rem;
+}
+.section-three p{
+
+    font-size:1rem;
+    line-height: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.section-three .container{
+    background-color: #9792E4;
+    color:white;
+    margin-top:3rem;
+    margin:0 auto;
+    margin-bottom:3rem;
+}
+
+
+.container-white{
+
+    background-color: white;
+
+    width:50%;
+    margin:0 auto;
+    border-radius:12%;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    text-align:center;
+}
+
+h4{
+    line-height: 3rem;
+}
+
+.container-white h2{
+    color:#9792E4;
+    line-height:2rem;
+    font-size:1.7rem;
+    font-weight: bold;
 }
