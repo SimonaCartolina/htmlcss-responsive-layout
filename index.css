@@ -457,3 +457,50 @@ footer{
     padding-top:0.75rem;
     
 }
+
+
+@media screen and (max-width:480px) 
+{
+    div.container{
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    div.container{
+        width:100%;
+        
+    }
+    .flex-column{
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    section.container-one{
+        width: calc( 100% / 3 * 2 - 2rem);
+        align-items:flex-start;
+        margin:1rem;
+    }
+
+    section.container-two{
+        width: calc(100% / 3 - 2rem);
+        margin:1rem;
+    }
+
+    .fa-solid{
+        margin:0 auto;
+    }
+    .section.container-three,
+    .section.container-four,
+    .section.container-five{
+
+        width: calc(100% / 3 - 2rem);
+        margin:1rem;
+
+    }
+    .button-appstore{
+        margin:0;
+    }
+    
+}
