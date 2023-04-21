@@ -507,11 +507,29 @@ footer{
         margin:0 auto;
     }
     .section-one img{
-        height:30rem;
+        height:35rem;
         width:35rem;
     }
     .section-one h3{
         font-size: 3rem;
+    }
+
+    .section-two .immagine{
+        margin:0 auto;
+    }
+    .section-two img{
+        height:25rem;
+        width:25rem;
+        margin-bottom:1rem;
+    }
+    .section-two h3{
+        margin:0 auto;
+        margin-bottom:1rem;
+    }
+
+    .section-two .arrow{
+        margin:0 auto;
+        margin-bottom:1rem;
     }
 
 
