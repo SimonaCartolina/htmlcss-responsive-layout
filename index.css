@@ -98,8 +98,6 @@ img{
     display:block;
     width:18rem;
     align-items:center;
-    margin-bottom:0;
-
 }
 
 /**/
@@ -312,4 +310,47 @@ p{
 
 .section-four .container{
     padding:2.4rem;
+}
+
+.section-five{
+    text-align: left;
+}
+.section-five p{
+    text-align: left;
+    color:black;
+    font-family: 'PT Sans', sans-serif;
+    font-size:1rem;
+    line-height:3rem;
+
+}
+.section-five h1{
+    color:#9792E4;
+    font-size:2.5rem;
+}
+.immagine-about{
+    display:block;
+    width:10rem;
+    height:10rem;
+    border-radius:50%;
+    margin-bottom:0.60rem;
+    position:relative;
+}
+.section-five img{
+    border-radius: 50%;
+    text-align:left;
+    justify-content: left;
+    
+}
+.section-five .virgolette{
+    color: #9792E4;
+    font-size:5rem;
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+.section-five .viola{
+    color:#9792E4;
+    font-size:1.5rem;
+    font-weight: bold;
 }
