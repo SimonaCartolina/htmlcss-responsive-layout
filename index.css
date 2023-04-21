@@ -54,7 +54,7 @@ nav{
 h1{
     font-weight: bold;
 
-    font-family:'Raleway', sans-serif;;
+    font-family:'Raleway', sans-serif;
     text-align:left;
     width:100%;
     font-size:1.2rem;
@@ -119,26 +119,35 @@ img{
 /*PULSANTE APPSTORE E PULSANTE MORE, CLASSE GENERICA DI BUTTON PER LE CARATTERISTICHE IN COMUNE*/
 .button{
     color:white;
+    text-align: center;
     padding: 0.80rem;
     padding-left:5rem;
     padding-right:5rem;
     margin:0 auto;
     border-radius:20px;
-    font-family: 'Raleway', sans-serif;
     font-family: 'PT Sans', sans-serif;
 
 }
-.button-more{
+.button-findme{
+    text-align: center;
     background-color: #9792E4;
-    align-items: left;
-    text-align:left;
-    justify-content: left;
-    margin-left:0; 
+    width:20rem;
+    padding:0.30rem;
+
 }
+.button-more{
+    text-align: center;
+    background-color: #9792E4;
+}
+
 .button-appstore{
     background-color: rgb(0, 55, 255);
     align-items: center;
+}
 
+.flex-column-align{
+    flex-direction:column;
+    align-items: flex-start;
 }
 /**/
 
@@ -242,6 +251,7 @@ p{
 }
 
 
+/*SECTION THREE*/
 
 .container-white{
 
@@ -312,13 +322,18 @@ p{
     padding:2.4rem;
 }
 
+
+
+/*SECTION FIVE*/
+
+
 .section-five{
     text-align: left;
+    font-family: 'PT Sans', sans-serif;
 }
 .section-five p{
     text-align: left;
     color:black;
-    font-family: 'PT Sans', sans-serif;
     font-size:1rem;
     line-height:3rem;
 
@@ -328,6 +343,9 @@ p{
     font-size:2.5rem;
 }
 .immagine-about{
+    display:flex;
+    align-items: start;
+    text-align: left;
     display:block;
     width:10rem;
     height:10rem;
@@ -338,19 +356,25 @@ p{
 .section-five img{
     border-radius: 50%;
     text-align:left;
-    justify-content: left;
-    
+    align-items:flex-start;
 }
 .section-five .virgolette{
-    color: #9792E4;
-    font-size:5rem;
     position:absolute;
-    top:0;
-    right:0;
+    bottom:90%;
+    top:10%;
+    left:80%;
+
+    color: #9792E4;
+    font-size:3rem;
+    font-family:'Raleway', sans-serif;
+
 
 }
-.section-five .viola{
+/*paragrafo viola della sezione cinque*/
+
+.section-five #viola{
     color:#9792E4;
     font-size:1.5rem;
     font-weight: bold;
+    line-height: 1.8rem;
 }
