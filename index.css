@@ -128,6 +128,11 @@ img{
     font-family: 'PT Sans', sans-serif;
 
 }
+.button-get-started{
+    background-color: white;
+    color:#9792E4;
+
+}
 .button-findme{
     text-align: center;
     background-color: #9792E4;
@@ -377,4 +382,66 @@ p{
     font-size:1.5rem;
     font-weight: bold;
     line-height: 1.8rem;
+}
+
+
+/*SECTION SETTE*/
+.section-seven{
+    background-color: #9792E4;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+}
+.section-seven h3{
+    font-size:3rem;
+    text-align: left;
+    margin-bottom:2rem;
+    color:rgba(255, 255, 0, 0.629);
+}
+
+.section-seven h1{
+    color:white;
+    text-align: center;
+    font-size:0.90rem;
+    color: rgba(245, 245, 245, 0.81)
+}
+
+.section-seven h2{
+    text-align: left;
+    color:white;   
+}
+
+/*FOOTER*/
+footer{
+    margin:0 auto;
+    width:80%;
+}
+.section-seven a{
+    color:white;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right:1.5rem;
+}
+
+.section-seven{
+    padding-bottom:5rem;
+
+}
+
+/*SECTION EIGHT*/
+
+.section-eight{
+    background-color: rgba(0, 0, 0, 0.796);
+    color:white;
+}
+.section-eight .container{
+    width:90%;
+}
+.section-eight p{
+    margin-bottom:4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-eight a{
+    color:#9792E4
 }
