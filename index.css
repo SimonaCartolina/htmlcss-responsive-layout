@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: 'Raleway', sans-serif;
 }
 
 /* in questo primo main ho dato il background color al main invece che a section, dato che il background era
@@ -53,8 +52,9 @@ nav{
 /*COMMON CLASSES*/
 
 h1{
-
     font-weight: bold;
+
+    font-family:'Raleway', sans-serif;;
     text-align:left;
     width:100%;
     font-size:1.2rem;
@@ -109,24 +109,38 @@ img{
     color:rgba(0, 0, 0, 0.705);
     font-size:0.75rem;
     margin-bottom:2rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .paragrafo-sezione-uno{
     padding-right:3rem;
     text-align: left;
+    font-family: 'Raleway', sans-serif;
 }
 
-/*PULSANTE APPSTORE*/
-
-.button-appstore{
+/*PULSANTE APPSTORE E PULSANTE MORE, CLASSE GENERICA DI BUTTON PER LE CARATTERISTICHE IN COMUNE*/
+.button{
     color:white;
-    background-color: rgb(0, 55, 255);
-    align-items: center;
     padding: 0.80rem;
     padding-left:5rem;
     padding-right:5rem;
     margin:0 auto;
     border-radius:20px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.button-more{
+    background-color: #9792E4;
+    align-items: left;
+    text-align:left;
+    justify-content: left;
+    margin-left:0; 
+}
+.button-appstore{
+    background-color: rgb(0, 55, 255);
+    align-items: center;
+
 }
 /**/
 
@@ -146,6 +160,7 @@ img{
 
 
 
+
 /*MAIN DUE*/
 
 /*section one*/
@@ -159,12 +174,13 @@ img{
 
 
 
-.section-one{
+.section-one,
+.section-four{
     background-color: #9792E4;
+    color:white;
 }
 
 .section-one .container{
-    color:white;
     text-align:left;
 }
 /*PARAGRAFI IN COMUNE*/
@@ -172,6 +188,7 @@ p{
     line-height:1.5rem;
     font-size:0.75rem;
     margin-bottom:2rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .section-one h3{
@@ -179,12 +196,14 @@ p{
     text-align:left;
     width:100%;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .section-one p{
     padding-right:4rem;
     text-align: left;
     color:white;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -195,7 +214,6 @@ p{
 }
 .section-two .container{
     background-color: white;
-    border-radi
 }
 
 .border-radius img{
@@ -209,12 +227,12 @@ p{
     background-color: white;
     margin:0 auto;
     margin-top:0.50rem;
+    font-family: 'PT Sans', sans-serif;
 }
 .section-three p{
 
     font-size:1rem;
     line-height: 2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .section-three .container{
@@ -226,10 +244,10 @@ p{
 }
 
 
+
 .container-white{
 
     background-color: white;
-
     width:50%;
     margin:0 auto;
     border-radius:12%;
@@ -238,8 +256,10 @@ p{
     text-align:center;
 }
 
-h4{
-    line-height: 3rem;
+#testimonial{
+    padding-top:1rem;
+    font-size:0.95rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container-white h2{
@@ -247,4 +267,49 @@ h4{
     line-height:2rem;
     font-size:1.7rem;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.virgolette{
+    font-size:3rem;
+    font-family: 'PT Sans', sans-serif;
+    position:relative;
+    top:1.10rem;
+    right:0.30rem;
+}
+
+.second-container-white{
+    background-color: white;
+    width:50%;
+    margin:0 auto;
+    border-radius:12%;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    text-align:left;
+    margin-bottom:1.5rem;
+}
+
+.section-four p{
+    color:blacK;
+
+}
+.section-four{
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-four h1{
+    color:#9792E4;
+    font-size:3rem;
+
+}
+.section-four h2{
+    color:#9792E4;
+    font-size:1.4rem;
+    width:100%;
+    justify-self: left;
+
+}
+
+.section-four .container{
+    padding:2.4rem;
 }
