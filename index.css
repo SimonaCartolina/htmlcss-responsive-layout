@@ -652,7 +652,8 @@ footer{
     }
 
     div.container{
-        width:100%;
+        width:70%;
+        margin:0 auto;
         
     }
     .flex-column{
@@ -763,7 +764,7 @@ footer{
 /*SECTION FOUR*/
 
 .section-four div.second-container-white{
-    width: 40%;
+    width: 29%;
     margin:2rem;
     float:left;
 }
