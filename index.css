@@ -599,12 +599,23 @@ footer{
 .section-four .titolo-section-four{
     margin-top:2.2rem;
 }
-.section-five.float{
-    float:left;
-    width:40%;
+
+/*SECTION FIVE*/
+.section-five{
+    display:flex;
+    flex-direction:row;
 }
-.section-five p,
-.section-five h1{
-    width:40%;
+.section-seven{
+    width:100%;
 }
+.section-seven .flex-column{
+    display:flex;
+    flex-direction:column;
 }
+.section-seven.footer{
+    margin:0 auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
