@@ -474,7 +474,8 @@ footer{
 
 /*TABLET*/
 
-@media screen and (max-width:768px) and (min-width:481px){
+@media screen and (max-width:768px)
+{
     div.container{
         width:100%;
         
@@ -555,6 +556,15 @@ footer{
         padding:0.70rem;
         border-radius:25px;
     }
+    .section-three .container-white{
+        justify-content: center;
+        margin:0;
+        width:100%;
+    }
+    .section-three #testimonial{
+        text-align: center;
+    }
+
 
     .section-three .immagine{
         width: calc(100% / 3.5);
@@ -566,13 +576,14 @@ footer{
         width: calc(100% / 3 * 2 - 3.5rem);
         font-size:0.85rem;
         line-height:1.2rem;
-        text-align:left;
+        text-align:center;
     }
     .container .testimonial{
         font-weight: bold;
         position:relative;
         left:14rem;
         bottom:3.5rem;
+        text-align:left;
     }
 /*SECTION FOUR*/
 
@@ -580,7 +591,6 @@ footer{
     width: 40%;
     margin:2rem;
     float:left;
-}
 }
 
 .section-four h2{
@@ -596,4 +606,5 @@ footer{
 .section-five p,
 .section-five h1{
     width:40%;
+}
 }
