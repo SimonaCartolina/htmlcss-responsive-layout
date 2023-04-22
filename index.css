@@ -414,6 +414,7 @@ p{
 footer{
     margin:0 auto;
     width:80%;
+    text-align:center;
 }
 .section-seven a{
     color:white;
@@ -601,6 +602,163 @@ footer{
 }
 
 /*SECTION FIVE*/
+.section-five{
+    display:flex;
+    flex-direction:row;
+    margin-top:3rem;
+}
+
+.section-seven{
+    width:100%;
+}
+.section-seven .flex-column{
+    display:flex;
+    flex-direction:column;
+}
+.section-seven.footer{
+    margin:0 auto;
+    width: 50%;
+    text-align: center;
+    
+}
+}
+
+
+
+/*DESKTOP*/
+
+@media screen and (max-width:1160px)
+{
+    div.container{
+        width:100%;
+        
+    }
+    .flex-column{
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    section.container-one{
+        width: calc( 100% / 3 * 2 - 2rem);
+        align-items:flex-start;
+        margin:1rem;
+    }
+
+    section.container-two{
+        width: calc(100% / 3 - 2rem);
+        margin:1rem;
+    }
+
+    .fa-solid{
+        margin:0 auto;
+    }
+    .section.container-three,
+    .section.container-four,
+    .section.container-five{
+
+        width: calc(100% / 3 - 2rem);
+        margin:1rem;
+
+    }
+    .button-appstore{
+        margin:0;
+    }
+
+    /* .main-due .section-one*/
+
+    .section-one .immagine{
+        margin:0 auto;
+    }
+    .section-one img{
+        height:35rem;
+        width:35rem;
+    }
+    .section-one h3{
+        font-size: 3rem;
+    }
+
+    /*sezione due*/
+
+    .section-two .immagine{
+        margin:0 auto;
+    }
+    .section-two img{
+        height:25rem;
+        width:25rem;
+        margin-bottom:1rem;
+    }
+    .section-two h3{
+        margin:0 auto;
+        margin-bottom:1rem;
+    }
+
+    .section-two .arrow{
+        margin:0 auto;
+        margin-bottom:1rem;
+    }
+
+    /*sezione tre*/
+    .section .section-three{
+        width: 100%;
+        margin:0;
+    }
+    .section-three .container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        padding:0.70rem;
+        border-radius:25px;
+    }
+    .section-three .container-white{
+        justify-content: center;
+        margin:0;
+        width:100%;
+    }
+    .section-three #testimonial{
+        text-align: center;
+    }
+
+
+    .section-three .immagine{
+        width: calc(100% / 3.5);
+        margin-right:3.5rem;
+        
+    }
+
+    .section-three p{
+        width: calc(100% / 3 * 2 - 3.5rem);
+        font-size:0.85rem;
+        line-height:1.2rem;
+        text-align:center;
+    }
+    .container .testimonial{
+        font-weight: bold;
+        position:relative;
+        left:14rem;
+        bottom:3.5rem;
+        text-align:left;
+    }
+/*SECTION FOUR*/
+
+.section-four div.second-container-white{
+    width: 40%;
+    margin:2rem;
+    float:left;
+}
+
+.section-four h2{
+    text-align:center;
+}
+.section-four .titolo-section-four{
+    margin-top:2.2rem;
+}
+
+/*SECTION FIVE*/
+.float{
+    padding:3rem;
+    width:49%;
+}
+
 .section-five{
     display:flex;
     flex-direction:row;
