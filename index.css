@@ -637,6 +637,34 @@ footer{
 
 @media screen and (min-width:1160px)
 {   
+    
+    .section-one .container{
+        width:30%;
+        margin:10%;    
+    }
+    .section-two{
+        background-color: white;
+        border-radius:20px;
+        color:black;
+    }
+    .section-two p{
+        color:black;
+        text-align:center;
+    }
+    .section-one h3{
+        text-align:center;
+        font-size:0.90rem;
+    }
+    .section-one .arrow{
+        padding:2.5%;
+    }
+    .sec-one{
+        float:left;
+    }
+    .section-two{
+        float:left;     
+    }
+
 
 
 
@@ -646,16 +674,7 @@ footer{
         margin-bottom:5%;
     
     }
-    main.main-due .section{
-        margin:20%;
-    
-    }
 
-    div.container{
-        width:70%;
-        margin:0 auto;
-        
-    }
     .flex-column{
         flex-direction: row;
         flex-wrap:wrap;
@@ -689,15 +708,16 @@ footer{
 
     /* .main-due .section-one*/
 
-    .section-one .immagine{
+    .sec-one .immagine{
         margin:0 auto;
     }
     .section-one img{
-        height:35rem;
-        width:35rem;
+        height:30rem;
+        width:30rem;
     }
     .section-one h3{
-        font-size: 3rem;
+        font-size: 2rem;
+        text-align: left;
     }
 
     /*sezione due*/
@@ -706,18 +726,28 @@ footer{
         margin:0 auto;
     }
     .section-two img{
-        height:25rem;
-        width:25rem;
+        height:15rem;
+        width:15rem;
         margin-bottom:1rem;
     }
     .section-two h3{
-        margin:0 auto;
-        margin-bottom:1rem;
+        padding-right:2rem;
+        text-align:center;
+        font-size: 1.5rem;
+        margin-bottom:0.80rem;
     }
 
     .section-two .arrow{
         margin:0 auto;
-        margin-bottom:1rem;
+        margin-bottom:0.80rem;
+    }
+    .section-two{
+        position:relative;
+        top:20%;
+        right:10%;
+        
+        text-align:center;
+        margin:0 auto;
     }
 
     /*sezione tre*/
